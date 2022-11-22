@@ -25,15 +25,15 @@ ChartJS.register(
 
 export default function Pie3D(props) {
   const options = {
-    responsive: true,
-    maintainAspectRatio: false,
+    responsive: false,
+    // maintainAspectRatio: false,
     plugins: {
       legend: {
-        position: "top",
+        position: "bottom",
       },
       title: {
         display: true,
-        text: "Top 5 Languages",
+        text: "Languages",
       },
     },
   };
@@ -72,5 +72,5 @@ export default function Pie3D(props) {
     ],
   };
 
-  return <Pie width={230} height={230} options={options} data={data} />;
+  return <Pie width={300} height={230} options={options} data={data} />;
 }

@@ -3,7 +3,12 @@ import styled from 'styled-components';
 import Card from './Card';
 import Followers from './Followers';
 const User = () => {
-  return <Followers />;
+  return (
+    <Wrapper className='section'>
+      <Card />
+      <Followers />
+    </Wrapper>
+  );
 };
 
 const Wrapper = styled.div`

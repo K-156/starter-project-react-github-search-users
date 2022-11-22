@@ -15,7 +15,7 @@ const Card = () => {
     blog,
     location,
   } = githubUser;
-  // 2) stars and forks
+
   // 3) search component
   // 4) setup request
   // 5) error
